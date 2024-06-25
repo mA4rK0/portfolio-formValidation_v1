@@ -1,0 +1,34 @@
+body {
+  font-family: "Marvel", sans-serif;
+  background-color: cornflowerblue;
+  font-size: medium;
+}
+
+.input-ctr input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.input-ctr input:focus {
+  outline: 0;
+}
+
+.input-ctr.success input {
+  border-color: springgreen;
+}
+
+.input-ctr.error input {
+  border-color: red;
+}
+
+.input-ctr .error {
+  color: red;
+}
+
+.input-ctr {
+  margin-top: 7%;
+}
+
+button {
+  width: 100%;
+}
